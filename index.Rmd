@@ -14,26 +14,19 @@ knit        : slidify::knit2slides
 ## Slide 1
 
 # Develoment products final project
-The aim of doing this project was to learn how to use this tools, instead to create a great
-application. 
-I use the data from the national statistical department of my country and just show the results.
+The aim of doing this project was to learn how to use this tools, instead to create a great application. 
+I have taken the data from the national statistical department of my country and  show the results of life quality.
 
 --- .class #id 
 
 ## Slide 2
 
-We see that this is an intercross with +r nind(sug)+ individuals.
-There are +r nphe(sug)+ phenotypes, and genotype data at
-+r totmar(sug)+ markers across the +r nchr(sug)+ autosomes.  The genotype
-data is quite complete.
+### Procesing the information
+The information was convert into a table and was selected some variables.
 
-Use +plot()+ to get a summary plot of the data.
+The select box in the lateral form selects the variable to be ploted.
 
-//begin.rcode summary_plot, fig.height=8
-plot(sug)
-//end.rcode
-
-#### I must have left sufficent theme to write another three slides
+### -------------------------------------
 
 --- .class #id 
 
